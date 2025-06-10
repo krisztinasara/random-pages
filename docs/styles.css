@@ -1,0 +1,93 @@
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    color: #000;
+}
+@media screen and (max-width: 600px) {
+    body { padding: 10px; }
+}
+h1 {
+    font-size: 36pt;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.subtitle {
+    text-align: center;
+    color: #827373;
+    font-weight: bold;
+}
+.add-info {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.abstract-title {
+    text-align: justify;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+}
+.abstract-authors {
+    text-align: justify;
+    font-style: italic;
+}
+.abstract-affiliations {
+    text-align: justify;
+    font-size: 12pt;
+    font-style: italic;
+    color: #827373;
+    margin-top: 6px;
+    line-height: 0.95;
+}
+.abstract-body {
+    font-size: 12pt;
+    margin-top: 6px;
+    text-align: justify;
+}
+.abstract-entry {
+    margin-bottom: 40px;
+}
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+.schedule-table td {
+    padding: 6px;
+    font-size: 12pt;
+    vertical-align: top;
+}
+.schedule-table tr {
+    border-bottom: 1px solid #ddd;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #827373;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #827373;
+    background-color: transparent;
+    text-decoration: underline;
+}
